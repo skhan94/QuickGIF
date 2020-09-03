@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.saman.gifimage.CustomScrollview
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"
+    android:weightSum="3"
+    android:id="@+id/horizontalfilterview"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@drawable/filter_bg"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image"
+                android:id="@+id/filter1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Original"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image1"
+                android:id="@+id/filter40"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Invert"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image2"
+                android:id="@+id/filter41"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Hue"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image38"
+                android:id="@+id/filter4"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Sketch"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image4"
+                android:id="@+id/filter5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Black Cat"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView5"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image5"
+                android:id="@+id/filter6"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Sepia"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView6"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image6"
+                android:id="@+id/filter7"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Grayscale"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image7"
+                android:id="@+id/filter8"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Sharpness"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView8"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image9"
+                android:id="@+id/filter9"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Convolution"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView9"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image8"
+                android:id="@+id/filter10"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Emboss"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView10"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image10"
+                android:id="@+id/filter11"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Posterize"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView11"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image12"
+                android:id="@+id/filter12"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Group"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView12"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image10"
+                android:id="@+id/filter13"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Saturation"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView13"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image13"
+                android:id="@+id/filter14"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Antique"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView14"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image14"
+                android:id="@+id/filter15"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Highlight"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView15"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image16"
+                android:id="@+id/filter16"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Monochrome"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView16"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image15"
+                android:id="@+id/filter17"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Beauty"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView17"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image17"
+                android:id="@+id/filter18"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Cool"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView18"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image18"
+                android:id="@+id/filter19"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Vignette"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView19"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image19"
+                android:id="@+id/filter20"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Blur"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView20"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image21"
+                android:id="@+id/filter21"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Crosshatch"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView21"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image22"
+                android:id="@+id/filter22"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Box Blur"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView22"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image23"
+                android:id="@+id/filter23"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="CGA"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView23"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image24"
+                android:id="@+id/filter24"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Dilation"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView24"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image25"
+                android:id="@+id/filter25"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="RGB"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView25"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image26"
+                android:id="@+id/filter26"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Emerald"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView26"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image27"
+                android:id="@+id/filter27"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Glass"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView27"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image28"
+                android:id="@+id/filter28"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Haze"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView28"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image29"
+                android:id="@+id/filter29"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Sphere"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView29"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image30"
+                android:id="@+id/filter30"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Laplacian"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView30"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image31"
+                android:id="@+id/filter31"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Swirl"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView31"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image32"
+                android:id="@+id/filter32"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Weak Pixel"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView32"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image33"
+                android:id="@+id/filter33"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="False Color"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView33"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image34"
+                android:id="@+id/filter34"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Levels Min"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView34"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <!--  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="60dp">
+
+              <ImageView
+                  android:layout_width="60dp"
+                  android:layout_height="60dp"
+
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginTop="5dp"
+                  android:scaleType="fitXY"
+                  android:src="@drawable/image34"
+                  android:id="@+id/filter35"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true" />
+
+
+              <TextView
+                  android:layout_width="60dp"
+                  android:layout_height="10dp"
+                  android:text="Blur"
+                  android:layout_marginLeft="5dp"
+                  android:textSize="8dp"
+                  android:background="#000000"
+                  android:textColor="#ffffff"
+                  android:textAlignment="center"
+                  android:id="@+id/textView35"
+                  android:layout_alignParentBottom="true"
+                  android:layout_alignParentStart="true" />
+          </RelativeLayout>-->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image43"
+                android:id="@+id/filter42"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Lomo"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView42"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image42"
+                android:id="@+id/filter43"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Latte"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView43"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image37"
+                android:id="@+id/filter37"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="10dp"
+                android:text="Skin White"
+                android:layout_marginLeft="5dp"
+                android:textSize="8dp"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:id="@+id/textView36"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <!--            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical" android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="5dp">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/image38"
+                            android:id="@+id/filter38"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true" />
+
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="10dp"
+                            android:text="Sketch"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="8dp"
+
+                            android:background="#000000"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center"
+                            android:id="@+id/textView37"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true" />
+                    </RelativeLayout>-->
+
+
+
+
+    </LinearLayout>
+</com.example.saman.gifimage.CustomScrollview>

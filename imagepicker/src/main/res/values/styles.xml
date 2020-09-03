@@ -1,0 +1,23 @@
+<resources>
+
+
+    <style name="RecyclerView"></style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+        <item name="colorPrimary">#46A3E9</item>
+        <item name="colorPrimaryDark">#46A3E9</item>
+        <item name="colorAccent">#46A3E9</item>
+    </style>
+
+    <style name="MIP_theme" parent="AppTheme">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+
+
+    </style>
+</resources>

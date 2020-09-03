@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="60dp"
+        android:id="@+id/done_cancel_bar">
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/main_menu"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView4" />
+
+        <!--   <ImageView
+               android:layout_gravity="center"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:onClick="preview_gif"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:src="@drawable/home"
+
+               android:textSize="12dp"
+               android:id="@+id/button5"
+               android:layout_alignTop="@+id/button4"
+               android:layout_alignParentEnd="true" />-->
+
+    </RelativeLayout>
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/logo"
+    android:src="@drawable/splash_logo"
+    android:layout_below="@+id/done_cancel_bar"
+    android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/logo"
+        android:layout_above="@+id/relativeLayout4">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_above="@+id/relativeLayout4"
+        android:layout_below="@+id/logo">
+   <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/button3"
+
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/imagetogif"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/videotogif_gallery"
+        android:id="@+id/galleryButton"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/videotogif_camera"
+        android:layout_below="@+id/galleryButton"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cameravideoButton"
+        android:layout_centerHorizontal="true"/>
+
+   <!-- <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ind_button"
+        android:layout_below="@+id/cameravideoButton"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cameraIndependence"
+        android:layout_centerHorizontal="true"/>-->
+
+
+    </RelativeLayout>
+    </ScrollView>
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:text="GIF through Image"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:text="GIF through Video(Gallery)"
+        android:id="@+id/galleryButton"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:text="GIF through Video(Camera)"
+        android:id="@+id/cameravideoButton"
+        android:layout_gravity="center_horizontal"
+        />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footer"
+        android:id="@+id/relativeLayout4">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+</RelativeLayout>

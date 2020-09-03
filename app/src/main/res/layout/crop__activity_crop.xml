@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="60dp"
+        android:id="@+id/done_cancel_bar">
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/crop_img"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView4" />
+
+     <!--   <ImageView
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="preview_gif"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/home"
+
+            android:textSize="12dp"
+            android:id="@+id/button5"
+            android:layout_alignTop="@+id/button4"
+            android:layout_alignParentEnd="true" />-->
+
+    </RelativeLayout>
+  <!--  <include
+        android:id="@+id/done_cancel_bar"
+        layout="@layout/crop__layout_done_cancel" />-->
+
+    <com.example.saman.gifimage.CropImageView
+        android:id="@+id/crop_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/crop__texture"
+        android:layout_below="@id/done_cancel_bar"
+        android:layout_above="@+id/done_cancel_bar1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/done_cancel_bar1"
+        android:layout_above="@+id/relativeLayout4"
+        android:layout_alignParentStart="true">
+
+
+
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/crop_btn"
+            android:layout_centerVertical="true"
+            android:textSize="12dp"
+            android:id="@+id/btn_done"
+
+            android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+
+
+            android:textColor="#ffffff"
+
+            android:src="@drawable/cancel"
+            android:id="@+id/btn_cancel"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/btn_done" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footer"
+        android:id="@+id/relativeLayout4">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+</RelativeLayout>

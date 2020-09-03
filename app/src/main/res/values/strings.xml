@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quick GIF</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3514887027893252/9563880523</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3514887027893252/2040613726</string>
+    <string-array name="Independence_Day">
+        <item>Pakistan</item>
+        <item>India</item>
+        <item>Afghanistan</item>
+        <item>Central African Republic</item>
+        <item>Hungary</item>
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>North Korea</item>
+        <item>South Korea</item>
+        <item>Ukraine</item>
+        <item>Uruguay</item>
+
+    </string-array>
+</resources>
+

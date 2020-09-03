@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+        <item name="colorPrimary">#46A3E9</item>
+        <item name="colorPrimaryDark">#46A3E9</item>
+        <item name="colorAccent">#46A3E9</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="MIP_theme" parent="AppTheme">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+
+
+    </style>
+    <style name="Dialog" parent="@android:style/Theme.Translucent.NoTitleBar">
+
+        <item name="android:windowSoftInputMode">adjustNothing</item>
+    </style>
+
+</resources>

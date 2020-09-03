@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.fsd.quickgif"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 4
+        versionName "1.4"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        maven { url 'https://dl.bintray.com/yazeed44/maven' }
+    }
+    useLibrary 'org.apache.http.legacy'
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+   /* splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a', 'mips'
+            universalApk true
+        }
+    }*/
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile('com.github.worker8:tourguide:1.0.17-SNAPSHOT@aar') {
+        transitive = true
+    }
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:leanback-v17:23.2.0'
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+    compile 'com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.6.0'
+    compile 'com.google.firebase:firebase-core:9.0.1'
+    compile 'com.google.firebase:firebase-ads:9.0.1'
+    compile 'com.google.firebase:firebase-messaging:9.0.1'
+    compile 'com.google.firebase:firebase-crash:9.0.1'
+    compile 'life.knowledge4:k4l-video-trimmer:1.0'
+    compile project(':imagepicker')
+    compile project(':lib')
+    compile project(':FFmpegAndroid1')
+}
+apply plugin: 'com.google.gms.google-services'
+configurations.compile.exclude module: 'cam2'

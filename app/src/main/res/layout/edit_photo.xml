@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="60dp"
+        android:id="@+id/relativeLayout">
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:onClick="finish"
+
+            android:src="@drawable/back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView4" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:onClick="save_image"
+
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/save_photo"
+
+
+            android:id="@+id/button5"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+        <!--  <Button
+              android:layout_gravity="center"
+              android:layout_width="120dp"
+              android:layout_height="40dp"
+              android:onClick="saveImage"
+              android:layout_marginRight="10dp"
+              android:text="Apply Changes"
+              android:textSize="12dp"
+
+              android:textColor="#ffffff"
+              android:background="#46A3E9"
+              android:src="@drawable/preview_gif"
+              android:layout_centerVertical="true"
+              android:layout_toStartOf="@+id/button5"
+              android:id="@+id/button4" />-->
+    </RelativeLayout>
+    <!--   <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/imageView1"
+            android:background="#000000"
+           android:layout_weight="0.51"
+
+           android:layout_below="@+id/relativeLayout"
+           android:layout_centerHorizontal="true">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout4">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+    <!-- <android.support.v17.leanback.widget.HorizontalGridView
+         android:layout_width="match_parent"
+         android:layout_height="70dp"
+         android:id="@+id/gridView"
+         android:layout_above="@+id/relativeLayout4"
+         android:layout_alignParentEnd="true" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/imageView1"
+        android:layout_weight="0.51"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/horizontalfilterview">
+
+        <com.example.saman.gifimage.filters.GPUImageView
+            android:id="@+id/gpuimage"
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/seekBar"
+                android:progressDrawable="@drawable/blue_scrubber_progress"
+                android:thumb="@drawable/filter_bar_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="3dp"
+                android:max="200"
+                android:maxHeight="3dp"
+
+                android:progress="100"
+                app:seekBarRotation="CW270"
+                />
+
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView"
+            android:onClick="shareit"
+            android:layout_gravity="right|top"
+            android:src="@drawable/share"/>
+    </FrameLayout>
+
+
+
+    <!--</RelativeLayout>-->
+
+
+    <!--<Button-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:text="Save"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:background="#46A3E9"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true" />-->
+
+
+    <!--  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/horizontalfilterview"
+        android:layout_alignParentBottom="true"
+
+        android:id="@+id/relativeLayout3">
+-->
+
+    <!--</RelativeLayout>
+-->
+
+
+
+    <include
+        layout="@layout/layout_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
